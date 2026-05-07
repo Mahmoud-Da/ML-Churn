@@ -16,11 +16,10 @@ This project simulates a **Binary Classification** problem. It generates data re
 ## 🚀 How to Run Locally (Using Pipenv)
 
 1. **Install dependencies:**
+
    ```bash
    pipenv install
    ```
-
-````
 
 2. **Activate the virtual environment:**
    ```bash
@@ -63,6 +62,3 @@ Don't want to install Python dependencies? Run it entirely inside a container!
 - **`model.py`**: The blueprint for the Neural Network.
 - **`train.py`**: The training loop (Forward pass -> Calculate Loss -> Backward pass -> Optimize).
 - **`predict.py`**: Loads the `.pth` weights and makes inferences on new data.
-
-
-````
