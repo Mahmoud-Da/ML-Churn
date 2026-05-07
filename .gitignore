@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# =========================
+# Custom Machine Learning / Deep Learning
+# =========================
+
+# Ignore generated datasets and images
+data/*
+
+# Ignore saved model weights
+models/*.pth
+models/*.pt
+models/*.h5
+models/*.pkl
+
+# (Optional) Allow .gitkeep so Git tracks the empty folders
+!data/.gitkeep
+!models/.gitkeep
